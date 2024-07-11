@@ -1,4 +1,6 @@
-/*body related style*/
+
+/*common shared style*/
+
 
 body {
 
@@ -24,6 +26,23 @@ font-weight: 700;
 padding: 18px 35px;
 
 }
+
+.section-title{
+ color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
+
+.section-description{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+
+
 
 /*nav related style*/
 nav {
@@ -75,4 +94,25 @@ nav a{
 
 .banner.profile-pic{
     margin: 161px 38px 0px 978px;
+}
+
+/* Main section style*/
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+/*About section style*/
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+
+}
+ 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 }
